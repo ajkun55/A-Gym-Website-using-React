@@ -2,8 +2,8 @@
 export default function Footer() {
   return (
     <div className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/ajkun55/Room-homepage">John A</a>.
+        <p>&copy; {new Date().getFullYear()}</p>     
+        Coded by <a href="https://github.com/ajkun55/A-Gym-Website-using-React/">John A</a>.
   </div>
   )
 }
